@@ -142,3 +142,5 @@ packages/react-devtools-extensions/shared/build
 packages/react-devtools-extensions/.tempUserDataDir
 packages/react-devtools-inline/dist
 packages/react-devtools-shell/dist
+
+ROADMAP.md
