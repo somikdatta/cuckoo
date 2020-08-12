@@ -242,6 +242,33 @@ body {
 
 .username{
   color: var(--primary-color);
+  cursor: pointer;
+  position: relative;
+}
+
+.username.copied::before{
+  width: max-content;
+  content: 'Copied to clipboard';
+  background: rgba(var(--color-dark-background),1);
+  box-shadow: var(--lift-shadow);
+  padding: var(--spacing-unit-xmicro);
+  border-radius: var(--spacing-unit-micro);
+  font-size: 0.8rem;
+  position: absolute;
+  top: calc(var(--spacing-unit-large) * -1);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.username.copied::after{
+  content: '';
+  background: rgba(var(--color-dark-background),1);
+  padding: var(--spacing-unit-xmicro);
+  position: absolute;
+  top: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  transform: rotate(45deg);
 }
 
 .callBox, .disclaimer{
