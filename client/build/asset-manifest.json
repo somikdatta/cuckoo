@@ -1,32 +1,33 @@
 {
   "files": {
     "main.css": "/static/css/main.5dc28365.chunk.css",
-    "main.js": "/static/js/main.7336cfbd.chunk.js",
-    "main.js.map": "/static/js/main.7336cfbd.chunk.js.map",
+    "main.js": "/static/js/main.a0d8876c.chunk.js",
+    "main.js.map": "/static/js/main.a0d8876c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cfae3202.js",
     "runtime-main.js.map": "/static/js/runtime-main.cfae3202.js.map",
     "static/css/2.190caba9.chunk.css": "/static/css/2.190caba9.chunk.css",
-    "static/js/2.c6f33a68.chunk.js": "/static/js/2.c6f33a68.chunk.js",
-    "static/js/2.c6f33a68.chunk.js.map": "/static/js/2.c6f33a68.chunk.js.map",
+    "static/js/2.9fe0d71e.chunk.js": "/static/js/2.9fe0d71e.chunk.js",
+    "static/js/2.9fe0d71e.chunk.js.map": "/static/js/2.9fe0d71e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.97f2e5de12a9ce85b2e6ec5f2bdeb268.js": "/precache-manifest.97f2e5de12a9ce85b2e6ec5f2bdeb268.js",
+    "precache-manifest.b22c6749a4eae08ea225deedaf59a81a.js": "/precache-manifest.b22c6749a4eae08ea225deedaf59a81a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.190caba9.chunk.css.map": "/static/css/2.190caba9.chunk.css.map",
     "static/css/main.5dc28365.chunk.css.map": "/static/css/main.5dc28365.chunk.css.map",
-    "static/js/2.c6f33a68.chunk.js.LICENSE.txt": "/static/js/2.c6f33a68.chunk.js.LICENSE.txt",
+    "static/js/2.9fe0d71e.chunk.js.LICENSE.txt": "/static/js/2.9fe0d71e.chunk.js.LICENSE.txt",
     "static/media/camera-stop.svg": "/static/media/camera-stop.85f8745d.svg",
     "static/media/camera.svg": "/static/media/camera.299a8f67.svg",
     "static/media/cuckoo-logo.svg": "/static/media/cuckoo-logo.8c9e061e.svg",
     "static/media/hang-up.svg": "/static/media/hang-up.1b1f0dc8.svg",
     "static/media/microphone-stop.svg": "/static/media/microphone-stop.09d0b6c2.svg",
     "static/media/microphone.svg": "/static/media/microphone.a2374838.svg",
+    "static/media/ringtone.mp3": "/static/media/ringtone.0be3c651.mp3",
     "static/media/share.svg": "/static/media/share.e7b143c0.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.cfae3202.js",
     "static/css/2.190caba9.chunk.css",
-    "static/js/2.c6f33a68.chunk.js",
+    "static/js/2.9fe0d71e.chunk.js",
     "static/css/main.5dc28365.chunk.css",
-    "static/js/main.7336cfbd.chunk.js"
+    "static/js/main.a0d8876c.chunk.js"
   ]
 }

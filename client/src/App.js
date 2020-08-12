@@ -6,6 +6,7 @@ import Footer from './Components/Footer'
 import Watermark from './Components/Watermark';
 import Rodal from 'rodal'
 import  'rodal/lib/rodal.css'
+import {Howl} from 'howler'
 
 import camera from './Icons/camera.svg'
 import camerastop from './Icons/camera-stop.svg'
@@ -13,6 +14,13 @@ import microphone from './Icons/microphone.svg'
 import microphonestop from './Icons/microphone-stop.svg'
 import share from './Icons/share.svg'
 import hangup from './Icons/hang-up.svg'
+import ringtone from './Sounds/ringtone.mp3'
+
+const ringtoneSound = new Howl({
+  src: [ringtone],
+  loop: true,
+  preload: true
+})
 
 function App() {
   const [yourID, setYourID] = useState("");
@@ -81,6 +89,7 @@ function App() {
 
     socket.current.on("hey", (data) => {
       setReceivingCall(true);
+      ringtoneSound.play();
       setCaller(data.from);
       setCallerSignal(data.signal);
     })
@@ -91,6 +100,7 @@ function App() {
       navigator.mediaDevices.getUserMedia({ video: true, audio: true }).then(stream => {
         setStream(stream);
         setCallingFriend(true)
+        setCaller(id)
         if (userVideo.current) {
           userVideo.current.srcObject = stream;
         }
@@ -156,6 +166,7 @@ function App() {
   }
 
   function acceptCall() {
+    ringtoneSound.unload();
     navigator.mediaDevices.getUserMedia({ video: true, audio: true }).then(stream => {
       setStream(stream);
       if (userVideo.current) {
@@ -195,6 +206,7 @@ function App() {
   }
 
   function rejectCall(){
+    ringtoneSound.unload();
     setCallRejected(true)
     socket.current.emit('rejected', {to:caller})
     window.location.reload()
