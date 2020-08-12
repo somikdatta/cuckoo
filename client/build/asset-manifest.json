@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.5dc28365.chunk.css",
+    "main.css": "/static/css/main.5b5d5ba0.chunk.css",
     "main.js": "/static/js/main.a0d8876c.chunk.js",
     "main.js.map": "/static/js/main.a0d8876c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cfae3202.js",
@@ -9,10 +9,10 @@
     "static/js/2.9fe0d71e.chunk.js": "/static/js/2.9fe0d71e.chunk.js",
     "static/js/2.9fe0d71e.chunk.js.map": "/static/js/2.9fe0d71e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b22c6749a4eae08ea225deedaf59a81a.js": "/precache-manifest.b22c6749a4eae08ea225deedaf59a81a.js",
+    "precache-manifest.64bd236e72b9d9003e8c26b794f6c158.js": "/precache-manifest.64bd236e72b9d9003e8c26b794f6c158.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.190caba9.chunk.css.map": "/static/css/2.190caba9.chunk.css.map",
-    "static/css/main.5dc28365.chunk.css.map": "/static/css/main.5dc28365.chunk.css.map",
+    "static/css/main.5b5d5ba0.chunk.css.map": "/static/css/main.5b5d5ba0.chunk.css.map",
     "static/js/2.9fe0d71e.chunk.js.LICENSE.txt": "/static/js/2.9fe0d71e.chunk.js.LICENSE.txt",
     "static/media/camera-stop.svg": "/static/media/camera-stop.85f8745d.svg",
     "static/media/camera.svg": "/static/media/camera.299a8f67.svg",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.cfae3202.js",
     "static/css/2.190caba9.chunk.css",
     "static/js/2.9fe0d71e.chunk.js",
-    "static/css/main.5dc28365.chunk.css",
+    "static/css/main.5b5d5ba0.chunk.css",
     "static/js/main.a0d8876c.chunk.js"
   ]
 }

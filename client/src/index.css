@@ -255,7 +255,7 @@ body {
   border-radius: var(--spacing-unit-micro);
   font-size: 0.8rem;
   position: absolute;
-  top: calc(var(--spacing-unit-large) * -1);
+  top: -20px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -265,7 +265,7 @@ body {
   background: rgba(var(--color-dark-background),1);
   padding: var(--spacing-unit-xmicro);
   position: absolute;
-  top: -2px;
+  top: 0;
   left: 50%;
   transform: translateX(-50%);
   transform: rotate(45deg);
