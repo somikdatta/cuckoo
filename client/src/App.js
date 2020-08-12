@@ -3,6 +3,7 @@ import io from "socket.io-client";
 import Peer from "simple-peer";
 import Navigation from './Components/Navigation'
 import Footer from './Components/Footer'
+import Watermark from './Components/Watermark';
 import Rodal from 'rodal'
 import  'rodal/lib/rodal.css'
 
@@ -337,6 +338,7 @@ function App() {
         {incomingCall}
       </div>
       <div className="callContainer" style={{display: renderCall()}}>
+        <Watermark/>
         <div className="partnerVideoContainer">
           {PartnerVideo}
         </div>
