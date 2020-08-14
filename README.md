@@ -26,7 +26,7 @@ Anonymous video calls across the world for free with screensharing!
 
 <a href="https://cuckooapp.herokuapp.com/" target="_blank">View Generator</a> · <a href="https://github.com/somikdatta/cuckoo/issues/new/choose" target="_blank">Report Bug</a> · <a href="https://github.com/somikdatta/cuckoo/issues/new/choose" target="_blank">Request Feature</a>
 
-<br/>
+<br/><br/>
 
 ✨ _Loved the project? Give this project a star to show your support._ ✨
 
