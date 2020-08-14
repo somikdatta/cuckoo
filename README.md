@@ -27,7 +27,7 @@ Anonymous video calls across the world for free with screensharing!
 <br/>
 <br/>
 
-<a href="https://cuckooapp.herokuapp.com/" target="_blank">View Generator</a> · <a href="https://github.com/somikdatta/cuckoo/issues/new/choose" target="_blank">Report Bug</a> · <a href="https://github.com/somikdatta/cuckoo/issues/new/choose" target="_blank">Request Feature</a>
+<a href="https://cuckooapp.herokuapp.com/" target="_blank">View Cuckoo</a> · <a href="https://github.com/somikdatta/cuckoo/issues/new/choose" target="_blank">Report Bug</a> · <a href="https://github.com/somikdatta/cuckoo/issues/new/choose" target="_blank">Request Feature</a>
 
 ✨ _Loved the project? Give this project a star to show your support._ ✨
 
@@ -48,7 +48,12 @@ Cuckoo is a small project to demonstrate the concepts of WebRTC, WebSockets by f
 -   [ ] Select camera
 -   [ ] Select audio device
 
-## Installation Steps
+## 🚀 Getting started
+
+This project is deployed at https://cuckooapp.herokuapp.com
+
+Guide for local deployment -
+
 1. Clone the repository
 ```bash
 git clone https://github.com/somikdatta/cuckoo.git
