@@ -88,9 +88,9 @@ yarn start in directory /cuckoo/client
 ## 🙇 Special Thanks 
 - [Coding with Chaim](https://github.com/coding-with-chaim/) for explaining the concepts of WebSockets and WebRTC on his [YouTube Channel](https://www.youtube.com/channel/UC7sCgeZ9xOwCGHIp2mVWlUQ)
 
-## ❤️ Supporting the project
+## ❤️ Support
 
-A simple star to this project repo is enough to keep me motivated on this project for days. If you find your self very much excited with this project let me know with a tweet. Mention me [@somikdatta](https://twitter.com/somikdatta)
+If you happen to love this project, leave a star on the repo. That'll keep me motivated. Let me know your thoughts with a tweet. Mention me [@somikdatta](https://twitter.com/somikdatta).
 
 Thanks!
 
