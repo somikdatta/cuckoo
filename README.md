@@ -26,4 +26,8 @@ Anonymous video calls across the world for free!
 
 <br/><br/>
 
+<a href="https://cuckooapp.herokuapp.com/" target="_blank">View Generator</a> · <a href="https://github.com/somikdatta/cuckoo/issues/new/choose" target="_blank">Report Bug</a> · <a href="https://github.com/somikdatta/cuckoo/issues/new/choose" target="_blank">Request Feature</a>
+
+✨ _Loved the project? Show your love to the developer by starring this repo._ ✨
+
 </div>
