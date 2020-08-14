@@ -1,9 +1,8 @@
 <div align="center">
   
-  <a href="https://cuckooapp.herokuapp.com">
-    <img alt="Cuckoo" src="./client/src/Icons/cuckoo-logo.svg" width="60" />
-  </a>
-
+<a href="https://cuckooapp.herokuapp.com">
+  <img alt="Cuckoo" src="./client/src/Icons/cuckoo-logo.svg" width="60" />
+</a>
 
 # Cuckoo - Anonymous, Free Video Calls
 
