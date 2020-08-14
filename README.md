@@ -24,9 +24,11 @@ Anonymous video calls across the world for free with screensharing!
 <img src="https://img.shields.io/github/issues-pr/somikdatta/cuckoo?style=for-the-badge" alt="cuckoo pull-requests"/>
 </a>
 
+<br/>
+
 <a href="https://cuckooapp.herokuapp.com/" target="_blank">View Generator</a> · <a href="https://github.com/somikdatta/cuckoo/issues/new/choose" target="_blank">Report Bug</a> · <a href="https://github.com/somikdatta/cuckoo/issues/new/choose" target="_blank">Request Feature</a>
 
-<br/><br/>
+<br/>
 
 ✨ _Loved the project? Give this project a star to show your support._ ✨
 
