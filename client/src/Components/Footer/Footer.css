@@ -1,0 +1,25 @@
+
+.footerWrapper{
+    width: 100%;
+    background-color: rgba(var(--color-dark-background),1);
+    text-align: center;
+    color: var(--grey-1);
+    padding: var(--spacing-unit-xxlarge) 0;
+  }
+  
+  .footerContainer{
+    max-width: var(--container-width);
+    margin: 0 auto;
+  }
+  
+  .self a{
+    text-decoration: none;
+    font-weight: var(--font-weight-text);
+    transition: text-decoration .2s cubic-bezier(.4,0,.2,1), color .2s cubic-bezier(.4,0,.2,1);
+    color: var(--grey-1);
+  }
+  
+  .self a:hover, .self a:focus{
+    text-decoration: underline;
+    color: #fff;
+  }

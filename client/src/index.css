@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
 
 :root{
@@ -113,91 +112,6 @@ body {
 
 .m-auto{
   margin: 0 auto;
-}
-
-.headerWrapper{
-  max-width: calc(var(--container-width) + var(--spacing-unit)*2);
-  margin: 0 auto;
-  padding: 0 var(--spacing-unit);
-}
-
-.headerContainer{
-  justify-content: space-between;
-  align-items: center;
-}
-
-.githubStar{
-  margin-top: var(--spacing-unit-micro);
-}
-
-.headerLogoLinkWrapper{
-  margin: var(--spacing-unit-xxmicro) 0;
-}
-
-.headerLogoLink{
-  background-color: #fff;
-  padding: var(--spacing-unit-micro) var(--spacing-unit-tiny);
-  transition: background-color .2s cubic-bezier(.4,0,.2,1);
-  border-radius: var(--spacing-unit-xmicro);
-}
-
-.headerLogoLink a{
-  text-decoration: none;
-  color: var(--color-text);
-  text-align: center;
-  white-space: nowrap;
-}
-
-.headerLogoLink:hover{
-  background-color: var(--primary-color-hover);
-}
-
-.headerLogoLink:active{
-  background-color: var(--primary-color-active);
-}
-
-.headerLogo{
-  line-height: 1.2;
-  align-items: center;
-  font-size: 1.6518974128rem;
-  padding: var(--spacing-unit-xmicro) 0;
-}
-
-.logoImg{
-  flex-shrink: 0;
-  height: 1.5em;
-}
-
-.logoImg img{
-  height: inherit;
-  width: auto;
-}
-
-.logoText{
-  margin-left: .2em;
-  display: flow-root;
-  font-weight: 700;
-  font-variation-settings: "wdth" 85;
-}
-
-.logoText:before{
-  content: "";
-  display: block;
-  height: 0;
-  width: 0;
-  margin-top: -.2075em;
-}
-
-.logoText:after{
-  content: "";
-  display: block;
-  height: 0;
-  width: 0;
-  margin-bottom: -.2075em;
-}
-
-.dropShadow{
-  box-shadow: var(--drop-shadow);
 }
 
 .o-wrapper-l {
@@ -381,32 +295,6 @@ body {
 }
 
 
-
-.footerWrapper{
-  width: 100%;
-  background-color: rgba(var(--color-dark-background),1);
-  text-align: center;
-  color: var(--grey-1);
-  padding: var(--spacing-unit-xxlarge) 0;
-}
-
-.footerContainer{
-  max-width: var(--container-width);
-  margin: 0 auto;
-}
-
-.self a{
-  text-decoration: none;
-  font-weight: var(--font-weight-text);
-  transition: text-decoration .2s cubic-bezier(.4,0,.2,1), color .2s cubic-bezier(.4,0,.2,1);
-  color: var(--grey-1);
-}
-
-.self a:hover, .self a:focus{
-  text-decoration: underline;
-  color: #fff;
-}
-
 .incomingCallContainer{
   width: 100%;
   height: 100%;
@@ -461,8 +349,10 @@ body {
 }
 
 .userVideoContainer{
-  width: 9rem;
-  height: 9rem;
+  max-width: 9rem;
+  max-height: 9rem;
+  height: auto;
+  width: auto;
   position: absolute;
   top: var(--spacing-unit-micro);
   left: var(--spacing-unit-micro);
@@ -480,11 +370,15 @@ body {
   width: 100%;
   height: 100%;
   z-index: 99;
+  background-color: rgba(0,0,0,1);
 }
 
 .partnerVideo{
   width: 100%;
   height: 100%;
+}
+
+.partnerVideo.cover{
   object-fit: cover;
 }
 
@@ -508,29 +402,14 @@ body {
   cursor: pointer;
   background-color: var(--primary-color-hover);
   box-shadow: var(--lift-shadow);
+  transition: background-color .2s cubic-bezier(.4,0,.2,1);
+}
+
+.iconContainer:hover{
+  background-color: rgba(var(--color-background),0.2);
 }
 
 .iconContainer img{
   width: 100%;
   height: auto;
-}
-
-.watermark{
-  height: 1rem;
-  position: absolute;
-  top: 2px;
-  right: 2px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: .6;
-}
-
-.watermark .logoImage{
-  height: inherit;
-  width: auto;
-}
-
-.watermark .logoText{
-  color: #fff;
 }

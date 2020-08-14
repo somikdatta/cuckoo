@@ -1,5 +1,6 @@
 import React from 'react'
-import cuckoologo from '../Icons/cuckoo-logo.svg'
+import cuckoologo from '../../Icons/cuckoo-logo.svg'
+import './Watermark.css'
 
 function Watermark(){
     return (

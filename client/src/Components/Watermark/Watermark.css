@@ -1,0 +1,20 @@
+
+.watermark{
+    height: 1rem;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .6;
+  }
+  
+  .watermark .logoImage{
+    height: inherit;
+    width: auto;
+  }
+  
+  .watermark .logoText{
+    color: #fff;
+  }

@@ -1,12 +1,13 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState, useRef, Suspense } from 'react';
 import io from "socket.io-client";
 import Peer from "simple-peer";
-import Navigation from './Components/Navigation'
-import Footer from './Components/Footer'
-import Watermark from './Components/Watermark';
 import Rodal from 'rodal'
-import  'rodal/lib/rodal.css'
 import {Howl} from 'howler'
+
+import Navigation from './Components/Navigation/Navigation'
+import Footer from './Components/Footer/Footer'
+
+import  'rodal/lib/rodal.css'
 
 import camera from './Icons/camera.svg'
 import camerastop from './Icons/camera-stop.svg'
@@ -14,7 +15,11 @@ import microphone from './Icons/microphone.svg'
 import microphonestop from './Icons/microphone-stop.svg'
 import share from './Icons/share.svg'
 import hangup from './Icons/hang-up.svg'
+import fullscreen from './Icons/fullscreen.svg'
+import minimize from './Icons/minimize.svg'
 import ringtone from './Sounds/ringtone.mp3'
+
+const Watermark = React.lazy(()=>import('./Components/Watermark/Watermark'))
 
 const ringtoneSound = new Howl({
   src: [ringtone],
@@ -37,6 +42,7 @@ function App() {
   const [modalMessage, setModalMessage] = useState('')
   const [audioMuted, setAudioMuted] = useState(false)
   const [videoMuted, setVideoMuted] = useState(false)
+  const [isfullscreen, setFullscreen] = useState(false)
   const [copied, setCopied] = useState(false)
   
   const userVideo = useRef();
@@ -278,7 +284,11 @@ function App() {
   }
 
   let PartnerVideo;
-  if (callAccepted) {
+  if (callAccepted && isfullscreen) {
+    PartnerVideo = (
+      <video className="partnerVideo cover" playsInline ref={partnerVideo} autoPlay />
+    );
+  } else if (callAccepted && !isfullscreen){
     PartnerVideo = (
       <video className="partnerVideo" playsInline ref={partnerVideo} autoPlay />
     );
@@ -324,7 +334,6 @@ function App() {
   let screenShare=<span className="iconContainer" onClick={()=>shareScreen()}>
     <img src={share} alt="Share screen"/>
   </span>
-
   if(isMobileDevice()){
     screenShare=<></>
   }
@@ -332,6 +341,17 @@ function App() {
   let hangUp=<span className="iconContainer" onClick={()=>endCall()}>
     <img src={hangup} alt="End call"/>
   </span>
+
+  let fullscreenButton;  
+  if(isfullscreen){
+    fullscreenButton=<span className="iconContainer" onClick={()=>{setFullscreen(false)}}>
+      <img src={minimize} alt="fullscreen"/>
+    </span>
+  } else {
+    fullscreenButton=<span className="iconContainer" onClick={()=>{setFullscreen(true)}}>
+      <img src={fullscreen} alt="fullscreen"/>
+    </span>
+  }
 
   return (
     <>
@@ -350,7 +370,9 @@ function App() {
         {incomingCall}
       </div>
       <div className="callContainer" style={{display: renderCall()}}>
-        <Watermark/>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Watermark/>
+        </Suspense>
         <div className="partnerVideoContainer">
           {PartnerVideo}
         </div>
@@ -361,6 +383,7 @@ function App() {
           {audioControl}
           {videoControl}
           {screenShare}
+          {fullscreenButton}
           {hangUp}
         </div>
       </div>

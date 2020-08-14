@@ -1,31 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b460325a27b2d0038cdaa0250cca793a",
+    "revision": "91a8b2fb45cac54d23652ac19d4867ce",
     "url": "/index.html"
   },
   {
-    "revision": "b7fb5c2397aed39bc666",
+    "revision": "3667b9eb0585c7d74ed3",
     "url": "/static/css/2.190caba9.chunk.css"
   },
   {
-    "revision": "4d83eaf97de33f612111",
-    "url": "/static/css/main.5b5d5ba0.chunk.css"
+    "revision": "9e36b8803b33736a1890",
+    "url": "/static/css/3.42bd9434.chunk.css"
   },
   {
-    "revision": "b7fb5c2397aed39bc666",
-    "url": "/static/js/2.9fe0d71e.chunk.js"
+    "revision": "289b400a6cec613bff28",
+    "url": "/static/css/main.6061efc8.chunk.css"
+  },
+  {
+    "revision": "3667b9eb0585c7d74ed3",
+    "url": "/static/js/2.079663ff.chunk.js"
   },
   {
     "revision": "148709ddc638d9a155f2e9c428088f0a",
-    "url": "/static/js/2.9fe0d71e.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.079663ff.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4d83eaf97de33f612111",
-    "url": "/static/js/main.a0d8876c.chunk.js"
+    "revision": "9e36b8803b33736a1890",
+    "url": "/static/js/3.665ad664.chunk.js"
   },
   {
-    "revision": "6f0234b4b87d585d06e8",
-    "url": "/static/js/runtime-main.cfae3202.js"
+    "revision": "289b400a6cec613bff28",
+    "url": "/static/js/main.2cdfb054.chunk.js"
+  },
+  {
+    "revision": "cfae1c5af218911e8778",
+    "url": "/static/js/runtime-main.8dbf745e.js"
   },
   {
     "revision": "85f8745d712d011a336d3f3993932bcd",
@@ -40,6 +48,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/cuckoo-logo.8c9e061e.svg"
   },
   {
+    "revision": "8f5e792134c28e4d0c6334510d3034e0",
+    "url": "/static/media/fullscreen.8f5e7921.svg"
+  },
+  {
     "revision": "1b1f0dc8daca05d7bb230891e4acb66b",
     "url": "/static/media/hang-up.1b1f0dc8.svg"
   },
@@ -50,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a23748387b7ae4f2e6377d5b70bcd02d",
     "url": "/static/media/microphone.a2374838.svg"
+  },
+  {
+    "revision": "fff27c21f0f61fc6615b80644f9101e6",
+    "url": "/static/media/minimize.fff27c21.svg"
   },
   {
     "revision": "0be3c651e1532de63056a20e2f341bde",

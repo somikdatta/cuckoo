@@ -1,0 +1,84 @@
+.headerWrapper{
+  max-width: calc(var(--container-width) + var(--spacing-unit)*2);
+  margin: 0 auto;
+  padding: 0 var(--spacing-unit);
+}
+
+.headerContainer{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.githubStar{
+  margin-top: var(--spacing-unit-micro);
+}
+
+.headerLogoLinkWrapper{
+  margin: var(--spacing-unit-xxmicro) 0;
+}
+
+.headerLogoLink{
+  background-color: #fff;
+  padding: var(--spacing-unit-micro) var(--spacing-unit-tiny);
+  transition: background-color .2s cubic-bezier(.4,0,.2,1);
+  border-radius: var(--spacing-unit-xmicro);
+}
+
+.headerLogoLink a{
+  text-decoration: none;
+  color: var(--color-text);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.headerLogoLink:hover{
+  background-color: var(--primary-color-hover);
+}
+
+.headerLogoLink:active{
+  background-color: var(--primary-color-active);
+}
+
+.headerLogo{
+  line-height: 1.2;
+  align-items: center;
+  font-size: 1.6518974128rem;
+  padding: var(--spacing-unit-xmicro) 0;
+}
+
+.logoImg{
+  flex-shrink: 0;
+  height: 1.5em;
+}
+
+.logoImg img{
+  height: inherit;
+  width: auto;
+}
+
+.logoText{
+  margin-left: .2em;
+  display: flow-root;
+  font-weight: 700;
+  font-variation-settings: "wdth" 85;
+}
+
+.logoText:before{
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -.2075em;
+}
+
+.logoText:after{
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+  margin-bottom: -.2075em;
+}
+
+.dropShadow{
+  box-shadow: var(--drop-shadow);
+}

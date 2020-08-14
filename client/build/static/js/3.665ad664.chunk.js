@@ -1,0 +1,2 @@
+(this.webpackJsonpclient=this.webpackJsonpclient||[]).push([[3],{133:function(e,a,t){},134:function(e,a,t){"use strict";t.r(a);var c=t(0),n=t.n(c),o=t(47),s=t.n(o);t(133);a.default=function(){return n.a.createElement("div",{className:"watermark"},n.a.createElement("img",{className:"logoImage",src:s.a,alt:"Cuckoo Logo"}),n.a.createElement("span",{className:"logoText"},"cuckoo"))}}}]);
+//# sourceMappingURL=3.665ad664.chunk.js.map
