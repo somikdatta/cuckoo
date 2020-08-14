@@ -37,8 +37,7 @@ Anonymous video calls across the world for free with screensharing!
 
 ---
 
-Cuckoo is a small project to demonstrate the concepts of WebRTC, WebSockets by facilitating video cross across the web!
-
+Cuckoo is a small project to demonstrate the concepts of WebRTC, WebSockets by facilitating video calls across the web!
 ---
 
 ## 🧐 Feature list
