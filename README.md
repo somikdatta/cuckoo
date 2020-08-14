@@ -6,7 +6,7 @@
 
 # Cuckoo - Anonymous, Free Video Calls
 
-Anonymous video calls across the world for free!
+Anonymous video calls across the world for free with screensharing!
   
 <a href="https://github.com/somikdatta/cuckoo/fork" target="blank">
 <img src="https://img.shields.io/github/forks/somikdatta/cuckoo?style=for-the-badge" alt="cuckoo forks"/>
@@ -25,6 +25,8 @@ Anonymous video calls across the world for free!
 </a>
 
 <a href="https://cuckooapp.herokuapp.com/" target="_blank">View Generator</a> · <a href="https://github.com/somikdatta/cuckoo/issues/new/choose" target="_blank">Report Bug</a> · <a href="https://github.com/somikdatta/cuckoo/issues/new/choose" target="_blank">Request Feature</a>
+
+<br/>
 
 ✨ _Loved the project? Give this project a star to show your support._ ✨
 
