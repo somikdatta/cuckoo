@@ -8,9 +8,9 @@
 </h1>
 
 <p align="center">
-<a href="https://github.com/somikdatta/cuckoo/blob/master/LICENSE" target="blank">
+<!-- <a href="https://github.com/somikdatta/cuckoo/blob/master/LICENSE" target="blank">
   <img src="https://img.shields.io/github/license/somikdatta/cuckoo?style=for-the-badge" alt="cuckoo licence" />
-</a>
+</a> -->
   
   <a href="https://github.com/somikdatta/cuckoo/fork" target="blank">
 <img src="https://img.shields.io/github/forks/somikdatta/cuckoo?style=for-the-badge" alt="cuckoo forks"/>
