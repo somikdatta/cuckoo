@@ -69,7 +69,7 @@ function App() {
             </div>
             <div className="callBox flex">
                 <input type="text" placeholder="Friend ID" value={receiverID} onChange={e => setReceiverID(e.target.value)} className="form-input"/>
-                <button onClick={() => callPeer(receiverID)} className="primaryButton">Call</button>
+                <button onClick={() => callPeer(receiverID.toLowerCase().trim())} className="primaryButton">Call</button>
             </div>
             <div>
                 To call your friend, ask them to open Cuckoo in their browser. <br/>
