@@ -8,7 +8,7 @@ const username = require('username-generator')
 const path = require('path')
 const { AwakeHeroku } = require('awake-heroku');
 
-AwakeService.add({
+AwakeHeroku.add({
     url: "https://cuckooapp.herokuapp.com"
 })
 
