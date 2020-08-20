@@ -7,6 +7,7 @@
   "author": "Somik Datta <developersomik@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "awake-heroku": "^1.0.17",
     "express": "^4.17.1",
     "socket.io": "^2.3.0",
     "username-generator": "^1.1.0"
