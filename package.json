@@ -8,7 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "awake-heroku": "^1.0.17",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "socket.io": "^2.4.0",
     "username-generator": "^1.1.0"
   }
